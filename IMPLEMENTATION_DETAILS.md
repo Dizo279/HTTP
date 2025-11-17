@@ -49,13 +49,12 @@ Tài liệu này mô tả chi tiết cách chương trình hoạt động, cấu
 ## Build / Run (Windows - PowerShell)
 - Build bằng g++ (MinGW) — một ví dụ đơn giản:
 ```powershell
-cd e:\HTTP-main\HTTPv1
-g++ -std=c++11 -o server.exe *.cpp -lws2_32
+cd D:\HTTP\HTTPv1\bin\Debug
+HTTPv1.exe
 ```
 - Chạy server (CLI):
 ```powershell
-.\server.exe
-Server> start 8888
+Server> start
 ```
 
 - Chuẩn bị client: trong `HTTPv1_client/filelist.txt` có các dòng như:
@@ -66,11 +65,11 @@ anh3.png
 ```
 - Build client:
 ```powershell
-cd D:\HTTP\HTTPv1_client
+D:\HTTP\HTTPv1_client\bin\Debug\HTTPv1_client.exe
 ```
 - Chạy client (CLI):
 ```powershell
-.\client.exe
+client> load filelist.txt your_ip 8888
 
 ```
 
