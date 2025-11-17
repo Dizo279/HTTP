@@ -1,0 +1,268 @@
+# depslib dependency file v1.0
+1647971288 source:c:\users\lappro\desktop\httpv1_client\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647552658 c:\users\lappro\desktop\httpv1_client\cli.h
+	<string>
+
+1761742569 source:c:\users\lappro\desktop\httpv1_client\main.cpp
+	<iostream>
+	"client_cli.h"
+
+1761743256 source:c:\users\lappro\desktop\httpv1_client\client_cli.cpp
+	<iostream>
+	"client_cli.h"
+
+1761741908 c:\users\lappro\desktop\httpv1_client\client_cli.h
+	"cli.h"
+
+1762964620 source:d:\http\httpv1_client\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762964620 d:\http\httpv1_client\cli.h
+	<string>
+
+1763374420 source:d:\http\httpv1_client\client_cli.cpp
+	<iostream>
+	"client_cli.h"
+	"ResourceDownload.h"
+
+1763373836 d:\http\httpv1_client\client_cli.h
+	"cli.h"
+	"tcpsocket.h"
+
+1762964620 source:d:\http\httpv1_client\main.cpp
+	<iostream>
+	"client_cli.h"
+
+1761749734 source:d:\http-main\http-main\httpv1_client\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1761749734 d:\http-main\http-main\httpv1_client\cli.h
+	<string>
+
+1761749734 source:d:\http-main\http-main\httpv1_client\client_cli.cpp
+	<iostream>
+	"client_cli.h"
+
+1761749734 d:\http-main\http-main\httpv1_client\client_cli.h
+	"cli.h"
+
+1761749734 source:d:\http-main\http-main\httpv1_client\main.cpp
+	<iostream>
+	"client_cli.h"
+
+1762964620 d:\http\httpv1_client\tcpsocket.h
+	"socket.h"
+
+1762964620 d:\http\httpv1_client\socket.h
+	<string>
+	<exception>
+
+1762935842 d:\http\httpv1_client\echotcpclient.h
+	"tcpclient.h"
+
+1762964620 d:\http\httpv1_client\tcpclient.h
+	"tcpsocket.h"
+
+1762935842 source:d:\http\httpv1_client\echotcpclient.cpp
+	"echotcpclient.h"
+	<iostream>
+
+1762964620 source:d:\http\httpv1_client\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1762964620 source:d:\http\httpv1_client\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1762964620 source:d:\http\httpv1_client\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1762964620 source:e:\http-main\httpv1_client\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762964620 e:\http-main\httpv1_client\cli.h
+	<string>
+
+1763375316 source:e:\http-main\httpv1_client\resourcedownload.cpp
+	"ResourceDownload.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<algorithm>
+
+1763371716 e:\http-main\httpv1_client\resourcedownload.h
+	"tcpclient.h"
+	<string>
+
+1762964620 e:\http-main\httpv1_client\tcpclient.h
+	"tcpsocket.h"
+
+1762964620 e:\http-main\httpv1_client\tcpsocket.h
+	"socket.h"
+
+1762964620 e:\http-main\httpv1_client\socket.h
+	<string>
+	<exception>
+
+1762964620 source:e:\http-main\httpv1_client\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1762964620 source:e:\http-main\httpv1_client\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1762964620 source:e:\http-main\httpv1_client\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1763374420 source:e:\http-main\httpv1_client\client_cli.cpp
+	<iostream>
+	"client_cli.h"
+	"ResourceDownload.h"
+
+1763373836 e:\http-main\httpv1_client\client_cli.h
+	"cli.h"
+	"tcpsocket.h"
+
+1762964620 source:e:\http-main\httpv1_client\main.cpp
+	<iostream>
+	"client_cli.h"
+
+1762964620 source:d:\http-main\httpv1_client\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762964620 d:\http-main\httpv1_client\cli.h
+	<string>
+
+1763374420 source:d:\http-main\httpv1_client\client_cli.cpp
+	<iostream>
+	"client_cli.h"
+	"ResourceDownload.h"
+
+1763373836 d:\http-main\httpv1_client\client_cli.h
+	"cli.h"
+	"tcpsocket.h"
+
+1762964620 d:\http-main\httpv1_client\tcpsocket.h
+	"socket.h"
+
+1762964620 d:\http-main\httpv1_client\socket.h
+	<string>
+	<exception>
+
+1763371716 d:\http-main\httpv1_client\resourcedownload.h
+	"tcpclient.h"
+	<string>
+
+1762964620 d:\http-main\httpv1_client\tcpclient.h
+	"tcpsocket.h"
+
+1762964620 source:d:\http-main\httpv1_client\main.cpp
+	<iostream>
+	"client_cli.h"
+
+1763375316 source:d:\http-main\httpv1_client\resourcedownload.cpp
+	"ResourceDownload.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<algorithm>
+
+1762964620 source:d:\http-main\httpv1_client\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1762964620 source:d:\http-main\httpv1_client\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1762964620 source:d:\http-main\httpv1_client\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1763371716 d:\http\httpv1_client\resourcedownload.h
+	"tcpclient.h"
+	<string>
+
+1763375316 source:d:\http\httpv1_client\resourcedownload.cpp
+	"ResourceDownload.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<algorithm>
+

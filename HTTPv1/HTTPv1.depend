@@ -1,0 +1,242 @@
+# depslib dependency file v1.0
+1648021689 source:d:\httpv1\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647603059 d:\httpv1\cli.h
+	<string>
+
+1761725215 source:d:\httpv1\main.cpp
+	<iostream>
+	"server_cli.h"
+
+1761725605 d:\httpv1\server_cli.h
+	"cli.h"
+
+1761726249 source:d:\httpv1\server_cli.cpp
+	<iostream>
+	"server_cli.h"
+
+1647971288 source:d:\http\httpv1\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647552658 d:\http\httpv1\cli.h
+	<string>
+
+1761674814 source:d:\http\httpv1\main.cpp
+	<iostream>
+	"server_cli.h"
+
+1762867059 d:\http\httpv1\server_cli.h
+	"cli.h"
+	"EchoTcpServer.h"
+
+1650541218 source:d:\http\httpv1\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1650538096 d:\http\httpv1\serverconfig.h
+	<string>
+	<unordered_map>
+
+1650541001 source:d:\http\httpv1\session.cpp
+	"session.h"
+
+1650540999 d:\http\httpv1\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1648537735 d:\http\httpv1\tcpsocket.h
+	"socket.h"
+
+1647662317 d:\http\httpv1\socket.h
+	<string>
+	<exception>
+
+1647662320 source:d:\http\httpv1\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1649203954 source:d:\http\httpv1\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1647322491 d:\http\httpv1\tcpserversocket.h
+	"tcpsocket.h"
+
+1650543033 source:d:\http\httpv1\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1762878597 d:\http\httpv1\echotcpserver.h
+	"tcpserver.h"
+
+1650550073 d:\http\httpv1\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1762878573 source:d:\http\httpv1\echotcpserver.cpp
+	"EchoTcpServer.h"
+	<iostream>
+
+1762878790 source:d:\http\httpv1\server_cli.cpp
+	<iostream>
+	<iomanip>
+	"server_cli.h"
+
+1762938230 source:d:\http\httpv1\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1762964620 source:e:\http-main\httpv1\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762964620 e:\http-main\httpv1\cli.h
+	<string>
+
+1762964620 source:e:\http-main\httpv1\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1762964620 e:\http-main\httpv1\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762964620 source:e:\http-main\httpv1\session.cpp
+	"session.h"
+
+1762964620 e:\http-main\httpv1\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1762964620 e:\http-main\httpv1\tcpsocket.h
+	"socket.h"
+
+1762964620 e:\http-main\httpv1\socket.h
+	<string>
+	<exception>
+
+1762964620 source:e:\http-main\httpv1\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1762964620 e:\http-main\httpv1\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1762964620 e:\http-main\httpv1\tcpserversocket.h
+	"tcpsocket.h"
+
+1762964620 source:e:\http-main\httpv1\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1762964620 source:e:\http-main\httpv1\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1762964620 source:e:\http-main\httpv1\main.cpp
+	<iostream>
+	"server_cli.h"
+
+1763373464 e:\http-main\httpv1\server_cli.h
+	"cli.h"
+	"HttpServer.h"
+
+1762964620 e:\http-main\httpv1\echotcpserver.h
+	"tcpserver.h"
+
+1763373490 source:e:\http-main\httpv1\server_cli.cpp
+	<iostream>
+	<iomanip>
+	"server_cli.h"
+	"HttpServer.h"
+
+1762964620 source:e:\http-main\httpv1\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1763373010 source:e:\http-main\httpv1\httphandler.cpp
+	"HttpHandler.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<algorithm>
+
+1763372626 e:\http-main\httpv1\httphandler.h
+	<string>
+
+1763373326 source:e:\http-main\httpv1\httpserver.cpp
+	"HttpServer.h"
+	"HttpHandler.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1763373638 e:\http-main\httpv1\httpserver.h
+	"tcpserver.h"
+
